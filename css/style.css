@@ -58,6 +58,235 @@ a {
     color: var(--main-bg-color)
 }
 
+/*** HEADER**/
+.header{
+    background: transparent;
+
+}
+#headerMob {display: none;}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    width: 161.09px;
+    height: 79px;
+    gap: 10px;
+}
+.logo img {
+    width: 61px;
+    padding: 0px;
+}
+
+.header menu {
+display: flex;
+flex-direction: row;
+width: 344px;
+height: 35px;
+left: 1096px;
+padding: 0px 50px 0px 50px;
+gap: 68px;
+justify-content:center;
+align-items:center;
+}
+
+.bouttons {
+display: flex;
+flex-direction: row;
+width: 244px;
+height: 35px;
+gap: 68px;
+justify-content: space-between;
+align-items: flex-end;
+transition: opacity 0.3s ease;
+
+}
+
+.box-heb {
+    display: flex;
+    align-items: flex-end;
+    height: 40px;
+    border: 2px;
+    transition: 0.1s ease;
+}
+
+.box-act {    
+    display: flex;
+    align-items: flex-end;
+    height: 40px;
+    border: 2px;
+    transition: 0.1s ease;
+}
+
+
+.box-heb:hover {
+    color:#0065FC;
+    border-top: solid;
+    border-color: #0065FC;
+}
+.box-act:hover {
+    color:#0065FC;
+    border-top: solid;
+    border-color: #0065FC;
+}
+
+.box-filtre:hover {
+    background-color: #0065FC;
+    cursor: pointer;
+}/** END OF HEADER**/ 
+
+
+
+
+
+
+
+/*** SEARCH ***/
+.info-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap: 35px;
+}
+
+.headline {
+    height: 25%;
+    }
+
+
+
+
+
+/*** SEARCH BAR**/
+
+.boutton-rech-mobile {display: none;}
+
+.search-bar{
+    display: flex;
+    margin-top: 25px;
+    height: 50px;
+}
+.titre-rech{
+    margin-bottom: 5px;
+}
+
+#icon-rech{
+    background-color: #F2F2F2;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-top-left-radius: 15px 15px;
+    border-bottom-left-radius: 15px 15px;
+}
+
+form > input{
+    height: 50px;
+    margin-left: 0;
+    border: 0.5px solid #f2f2f2;
+    padding-left: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+form > input::placeholder{
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000 !important;
+    opacity: 1;
+
+}
+
+
+.boutton-rech{
+    padding: 0 20px;
+    font-size: 1rem;
+    color: #fff;
+  	border: 0;
+    border-top-right-radius: 15px 15px;
+  	border-bottom-right-radius: 15px 15px;
+    background-color: #0065FC;
+    cursor: pointer;
+}
+
+.button {
+    font-size: 18px;
+    color: white;
+}
+
+/** FILTRE **/
+
+.filterbar{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.titre-filtre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-filtre {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    height: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 2px solid #F2F2F2;
+    cursor: pointer;
+    margin: 20px 10px;
+}
+
+.box-filtre h5{
+    padding: 10px;
+}
+
+
+
+.box-filtre:hover{
+    background-color: #DEEBFF;
+    transition: 0.3s;
+}
+.infobar {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.info-txt {
+    display: flex;
+    align-items: center;
+}
+
+.infobar i {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    height: 24px;
+    width: 24px;
+    
+    border-radius: 50px;
+    border: 1px solid #F2F2F2;
+    margin-right: 10px;
+    
+}
+
+
+
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
